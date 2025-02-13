@@ -8,9 +8,9 @@
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/tuuser/devquest-course?style=social)
-![License](https://img.shields.io/github/license/tuuser/devquest-course)
-![Last commit](https://img.shields.io/github/last-commit/tuuser/devquest-course)
+![GitHub stars](https://img.shields.io/github/stars/tuuser/devquest?style=social)
+![License](https://img.shields.io/github/license/tuuser/devquest)
+![Last commit](https://img.shields.io/github/last-commit/tuuser/devquest)
 
 </div>
 
@@ -61,8 +61,8 @@ Al completar esta aventura, habrás:
 
 1. Clona este repositorio:
 ```bash
-git clone https://github.com/tuuser/devquest-course.git
-cd devquest-course
+git clone https://github.com/tuuser/devquest.git
+cd devquest
 ```
 
 2. Instala las dependencias del proyecto base:
