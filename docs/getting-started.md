@@ -129,7 +129,7 @@ El curso está dividido en misiones (capítulos):
 
 - 💬 [Discord del Proyecto](https://discord.gg/tuenlace)
 - 📝 [GitHub Issues](https://github.com/borchsolutions/devquest/issues)
-- 📧 [Email de Soporte](mailto:support@devquest.com)
+- 📧 [Email de Soporte](mailto:bryan@ramirezchavez.net)
 
 ## 🎖️ Siguientes Pasos
 

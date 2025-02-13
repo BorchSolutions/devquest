@@ -164,6 +164,29 @@ Crea una pequeña aplicación que combine todo lo aprendido:
 - Crea múltiples componentes
 - Usa JSX apropiadamente
 
+chapter-1/
+├── exercises/
+│   ├── 01-perfil-heroe/
+│   │   ├── README.md
+│   │   ├── inicio/             # Código inicial
+│   │   │   ├── package.json
+│   │   │   └── src/
+│   │   └── solucion/          # Código de la solución
+│   │
+│   ├── 02-lista-poderes/
+│   │   ├── README.md
+│   │   ├── inicio/
+│   │   └── solucion/
+│   │
+│   └── 03-tarjeta-mision/
+│       ├── README.md
+│       ├── inicio/
+│       └── solucion/
+│
+└── assets/                    # Imágenes y recursos del capítulo
+    ├── virtual-dom.png
+    └── component-lifecycle.png
+    
 ## 📚 Recursos Adicionales
 
 - [Documentación oficial de React](https://react.dev)
