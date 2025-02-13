@@ -18,7 +18,7 @@ Antes de comenzar tu viaje, asegúrate de tener en tu inventario:
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/tuuser/devquest.git
+git clone https://github.com/borchsolutions/devquest.git
 
 # Ingresa al directorio
 cd devquest
@@ -128,7 +128,7 @@ El curso está dividido en misiones (capítulos):
 ## 🆘 Soporte
 
 - 💬 [Discord del Proyecto](https://discord.gg/tuenlace)
-- 📝 [GitHub Issues](https://github.com/tuuser/devquest/issues)
+- 📝 [GitHub Issues](https://github.com/borchsolutions/devquest/issues)
 - 📧 [Email de Soporte](mailto:support@devquest.com)
 
 ## 🎖️ Siguientes Pasos
