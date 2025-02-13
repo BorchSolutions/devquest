@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .app-container {
+    @apply min-h-screen bg-gray-100 p-8;
+  }
+
+  .hero-profile {
+    @apply bg-white rounded-xl shadow-lg overflow-hidden p-6;
+  }
+
+  .hero-header {
+    @apply flex justify-between items-center mb-4;
+  }
+
+  .hero-name {
+    @apply text-2xl font-bold text-gray-900 mb-1;
+  }
+
+  .hero-level {
+    @apply text-sm font-semibold text-gray-500 inline-block;
+  }
+
+  .hero-class {
+    @apply text-lg text-blue-600 font-medium mb-6;
+  }
+
+  .stats-container {
+    @apply space-y-4 mb-6;
+  }
+
+  .stat-item {
+    @apply w-full;
+  }
+
+  .stat-bar {
+    @apply w-full bg-gray-200 rounded-full h-2 overflow-hidden;
+  }
+
+  .stat-value {
+    @apply h-full rounded-full transition-all duration-300;
+  }
+
+  .abilities-list {
+    @apply space-y-3 mt-6;
+  }
+
+  .ability-item {
+    @apply flex items-center space-x-2 p-2 rounded-lg hover:bg-gray-50 transition-colors;
+  }
+
+  .status-indicator {
+    @apply flex items-center;
+  }
+}
+
+/* Animaciones personalizadas */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.status-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Transiciones */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Media queries para responsividad */
+@media (max-width: 640px) {
+  .hero-profile {
+    @apply p-4;
+  }
+
+  .hero-name {
+    @apply text-xl;
+  }
+
+  .hero-class {
+    @apply text-base;
+  }
+}
