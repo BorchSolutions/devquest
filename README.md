@@ -102,8 +102,8 @@ El curso está diseñado para una progresión natural:
 
 Un agradecimiento especial a todos los héroes que han contribuido a este proyecto:
 
-<a href="https://github.com/tuuser/devquest/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=tuuser/devquest" />
+<a href="https://github.com/ezzeker/devquest/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=ezzeker/devquest" />
 </a>
 
 ## 📝 Licencia
