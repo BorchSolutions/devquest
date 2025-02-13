@@ -1,69 +1,121 @@
-# Contribuyendo a DevQuest 🚀
+# DevQuest - La Aventura del Desarrollo en React y Next.js 🚀
 
-¡Gracias por tu interés en contribuir a DevQuest! Este documento proporciona las pautas para contribuir al proyecto.
+¡Bienvenido aventurero al curso más emocionante de React y Next.js! Prepárate para una aventura épica donde no solo dominarás React, sino que también descubrirás los poderes legendarios de Next.js.
 
-## 🎯 Cómo Contribuir
+<p align="center">
+  <img src="docs/assets/devquest-logo.png" alt="DevQuest Logo" width="200"/>
+</p>
 
-1. Fork el repositorio
-2. Crea una rama para tu contribución (`git checkout -b feature/nueva-caracteristica`)
-3. Haz tus cambios
-4. Realiza commit de tus cambios (`git commit -am 'Añade nueva característica'`)
-5. Push a la rama (`git push origin feature/nueva-caracteristica`)
-6. Crea un Pull Request
+<div align="center">
 
-## 📝 Pautas para Contribuciones
+![GitHub stars](https://img.shields.io/github/stars/tuuser/devquest-course?style=social)
+![License](https://img.shields.io/github/license/tuuser/devquest-course)
+![Last commit](https://img.shields.io/github/last-commit/tuuser/devquest-course)
 
-### Documentación
-- Mantén el estilo narrativo RPG
-- Usa emojis apropiados para los títulos
-- Incluye ejemplos prácticos
-- Actualiza el índice si es necesario
+</div>
 
-### Código
-- Sigue las mejores prácticas de React/Next.js
-- Incluye comentarios explicativos
-- Asegúrate de que el código esté testeado
-- Mantén la consistencia con el estilo existente
+## 📜 Sobre esta Aventura
 
-### Ejercicios y Proyectos
-- Incluye objetivos claros
-- Proporciona una estructura base
-- Añade pistas y recursos adicionales
-- Incluye soluciones en la rama `solutions`
+DevQuest es un curso completo estructurado como un juego de rol donde cada nuevo concepto es una misión por completar y cada proyecto una batalla por ganar. Comenzarás dominando las artes de React y luego ascenderás al siguiente nivel con los poderes de Next.js.
 
-## 🎮 Estructura de Carpetas
+## 🗺️ Navegación Rápida
 
-Mantén la estructura del proyecto:
+- [📚 Documentación](#documentación)
+- [🎯 Objetivos del Curso](#objetivos-del-curso)
+- [🎮 Cómo Empezar](#cómo-empezar)
+- [📈 Progresión](#progresión)
+- [🤝 Contribuir](#contribuir)
+- [📝 Licencia](#licencia)
+
+## 📚 Documentación
+
+Toda la documentación está disponible en la carpeta [/docs](/docs):
+- [Guía de inicio](/docs/getting-started.md)
+- [Estructura del curso](/docs/course-structure.md)
+- [Guía de contribución](/CONTRIBUTING.md)
+
+## 🎯 Objetivos del Curso
+
+Al completar esta aventura, habrás:
+- Dominado los fundamentos y conceptos avanzados de React
+- Desbloqueado los poderes legendarios de Next.js
+- Construido aplicaciones full-stack escalables
+- Aprendido las mejores prácticas de la industria
+- Desbloqueado habilidades técnicas esenciales
+- Formado parte de una comunidad de desarrolladores
+
+[Ver detalles completos del programa](/docs/course-objectives.md)
+
+## 🗺️ Mapa del Camino del Héroe
+
+### Capítulo 1: El Despertar del Desarrollador
+[Ver contenido del Capítulo 1](/docs/chapters/chapter-1/)
+- Fundamentos de JavaScript Moderno (ES6+)
+- El poder del Virtual DOM
+- JSX: El lenguaje de los hechiceros
+- Componentes: Las armas básicas
+
+[Ver todos los capítulos...](/docs/chapters/)
+
+## 🎮 Cómo Empezar
+
+1. Clona este repositorio:
+```bash
+git clone https://github.com/tuuser/devquest-course.git
+cd devquest-course
 ```
-docs/           # Documentación
-exercises/      # Ejercicios
-projects/       # Proyectos principales
-resources/      # Recursos adicionales
+
+2. Instala las dependencias del proyecto base:
+```bash
+cd projects/basic-quest
+npm install
 ```
 
-## ✨ Tipos de Contribuciones Bienvenidas
+3. Sigue la [guía de inicio](/docs/getting-started.md)
 
-- Correcciones de documentación
-- Nuevos ejercicios
-- Mejoras en proyectos existentes
-- Correcciones de bugs
-- Mejoras en la estructura
-- Traducciones
+## 📈 Progresión
 
-## 📝 Proceso de Pull Request
+El curso está diseñado para una progresión natural:
 
-1. Sigue la plantilla de PR proporcionada
-2. Incluye una descripción clara
-3. Referencia issues relacionados
-4. Añade screenshots si es relevante
+1. **Novato (Capítulos 1-2)**
+   - Fundamentos de React
+   - Primeros pasos con Next.js
 
-## 🤝 Código de Conducta
+2. **Aventurero (Capítulos 3-4)**
+   - Server Components básicos
+   - Routing con App Router
 
-- Sé respetuoso con otros contribuidores
-- Mantén las discusiones constructivas
-- Sigue las pautas de la comunidad
-- Ayuda a otros cuando sea posible
+[Ver sistema completo de progresión](/docs/progression-system.md)
+
+## 🛠️ Requisitos Previos
+
+- Node.js 18.17 o superior
+- Conocimientos básicos de JavaScript
+- Editor de código (recomendado: VS Code)
+- Git instalado
+
+## 🤝 Contribuir
+
+¡Tus contribuciones son bienvenidas! Por favor lee nuestra [guía de contribución](/CONTRIBUTING.md) antes de empezar.
+
+## 💖 Agradecimientos
+
+Un agradecimiento especial a todos los héroes que han contribuido a este proyecto:
+
+<a href="https://github.com/tuuser/devquest-course/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=tuuser/devquest-course" />
+</a>
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia MIT. Ver el archivo [LICENSE](/LICENSE) para más detalles.
 
 ---
 
-¡Gracias por contribuir a hacer de DevQuest una mejor experiencia de aprendizaje para todos!
+<div align="center">
+
+**¿Listo para comenzar tu aventura? ¡Los reinos de React y Next.js te esperan!**
+
+[Comenzar Aventura](/docs/getting-started.md) • [Unirse al Discord](https://discord.gg/tuenlace) • [Contribuir](/CONTRIBUTING.md)
+
+</div>
