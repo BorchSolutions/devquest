@@ -87,6 +87,44 @@ El curso está diseñado para una progresión natural:
 
 [Ver sistema completo de progresión](/docs/progression-system.md)
 
+## 📁 Estructura del Reino (Repositorio)
+
+```
+devquest/
+├── README.md                # El pergamino principal (documentación principal)
+├── CONTRIBUTING.md         # Guía para nuevos aventureros (contribuidores)
+├── LICENSE                 # Términos del reino (licencia)
+│
+├── docs/                   # 📚 Grimorios (Documentación)
+│   ├── getting-started.md  # Guía del primer día
+│   ├── chapters/          # Capítulos del viaje
+│   │   ├── chapter-1/     # El Despertar del Desarrollador
+│   │   │   ├── README.md  # Descripción del capítulo
+│   │   │   ├── lessons/   # Lecciones individuales
+│   │   │   └── assets/    # Recursos del capítulo
+│   │   └── ...            # Más capítulos
+│   └── assets/            # Recursos generales
+│
+├── exercises/             # ⚔️ Campo de Entrenamiento (Ejercicios)
+│   ├── chapter-1/        # Ejercicios del primer capítulo
+│   │   ├── README.md     # Instrucciones
+│   │   ├── exercise-1/   # Primer ejercicio
+│   │   └── exercise-2/   # Segundo ejercicio
+│   └── ...               # Más ejercicios
+│
+├── projects/             # 🏰 Misiones Principales (Proyectos)
+│   ├── basic-quest/     # Proyecto React básico
+│   │   ├── README.md    # Instrucciones del proyecto
+│   │   └── src/         # Código fuente
+│   ├── advanced-quest/  # Proyecto React avanzado
+│   └── legendary-quest/ # Proyecto final Next.js
+│
+└── resources/           # 🎮 Arsenal del Héroe (Recursos)
+    ├── cheatsheets/    # Pergaminos de referencia rápida
+    ├── templates/      # Templates para misiones
+    └── solutions/      # Grimorios de soluciones (en rama separada)
+```
+
 ## 🛠️ Requisitos Previos
 
 - Node.js 18.17 o superior
@@ -102,8 +140,8 @@ El curso está diseñado para una progresión natural:
 
 Un agradecimiento especial a todos los héroes que han contribuido a este proyecto:
 
-<a href="https://github.com/tuuser/devquest-course/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=tuuser/devquest-course" />
+<a href="https://github.com/borchsolutions/devquest/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=borchsolutions/devquest" />
 </a>
 
 ## 📝 Licencia
