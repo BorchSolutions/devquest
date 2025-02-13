@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-container {
+  @apply min-h-screen bg-gray-100 p-8;
+}
+
+.hero-profile {
+  @apply max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl p-6;
+}
+
+.hero-header {
+  @apply flex items-center space-x-4;
+}
+
+.hero-name {
+  @apply text-2xl font-bold text-gray-900;
+}
+
+.hero-level {
+  @apply text-sm font-semibold text-gray-500;
+}
+
+.hero-class {
+  @apply text-lg text-blue-600 font-medium;
+}
+
+.status-indicator {
+  @apply inline-flex items-center;
+}
+
+.status-online {
+  @apply text-green-500;
+}
+
+.status-offline {
+  @apply text-gray-400;
+}
+
+.stats-container {
+  @apply mt-4 space-y-2;
+}
+
+.stat-bar {
+  @apply w-full bg-gray-200 rounded-full h-2;
+}
+
+.stat-value {
+  @apply h-full rounded-full bg-blue-600 transition-all duration-300;
+}
+
+.abilities-list {
+  @apply mt-4 space-y-2;
+}
+
+.ability-item {
+  @apply flex items-center space-x-2 text-gray-700;
+}
+
+/* Animaciones */
+@keyframes levelUp {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.level-up {
+  animation: levelUp 0.5s ease-in-out;
+}
