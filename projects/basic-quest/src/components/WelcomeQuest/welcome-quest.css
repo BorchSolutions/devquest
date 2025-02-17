@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.welcome-container {
+    @apply min-h-screen bg-gray-900 flex items-center justify-center p-4;
+    background-image: linear-gradient(to bottom right, #1a1a2e, #16213e);
+}
+
+.welcome-content {
+    @apply bg-gray-800 rounded-xl shadow-2xl p-8 max-w-2xl w-full text-center;
+}
+
+.welcome-title {
+    @apply text-4xl font-bold text-white mb-6;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.welcome-description {
+    @apply text-gray-300 text-lg mb-8;
+}
+
+.quest-stats {
+    @apply grid grid-cols-3 gap-4 mb-8;
+}
+
+.stat-item {
+    @apply bg-gray-700 rounded-lg p-4 flex flex-col items-center;
+}
+
+.stat-label {
+    @apply text-gray-400 text-sm mb-1;
+}
+
+.stat-value {
+    @apply text-white text-xl font-bold;
+}
+
+.quest-actions {
+    @apply flex flex-col gap-4 justify-center;
+}
+
+.quest-button {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all duration-300;
+}
+
+.quest-button.primary {
+    @apply bg-blue-600 text-white;
+}
+
+.quest-button.primary:hover {
+    @apply bg-blue-700;
+}
+
+.quest-button.secondary {
+    @apply bg-gray-700 text-white;
+}
+
+.quest-button.secondary:hover {
+    @apply bg-gray-600;
+}
+
+@screen sm {
+    .quest-actions {
+        @apply flex-row;
+    }
+}
